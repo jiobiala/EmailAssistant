@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}HOME
+{% endblock %}
+
+{% block content %}
+
+<div class="container bg-light" style="max-width:700px; margin-top: 50px;">
+            <div class="text-center mt-5">
+                <h1>Virtual Voice Email Assistant</h1>
+                <p class="lead">A project built with Bootstrap to help visually impaired people use email with minimal voice</p>
+                <p>Please turn on LESS SECURE APPS on your gmail to use the app</p>
+            </div>
+</div>
+
+<script src="{{ url_for('static', filename='home.js') }}"></script>
+
+{% endblock %}

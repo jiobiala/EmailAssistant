@@ -1,0 +1,54 @@
+body{
+      background: #232b2b;
+
+}
+
+.container{
+    background: #E1BEE7;
+    width: 400px;
+    margin-top: 10vh;
+    padding: 30px;
+
+
+}
+
+.form-container{
+    position: absolute;
+    top: 30vh;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+
+}
+
+.my-row{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+.bg{
+    margin-top: 50px;
+}
+
+.scroll{
+    height: 30vh;
+    overflow: scroll;
+}
+
+.btns{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+
+
+}
+
+.form-control{
+
+}
+
+.navbar-custom {
+            background-color: #1c1c1e;
+        }
